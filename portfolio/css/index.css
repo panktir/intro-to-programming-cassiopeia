@@ -1,18 +1,37 @@
+
+
 body {
-    background-color: rgb(7, 7, 7);
-    background-image: linear-gradient(black,rgb(61, 42, 61));
+
+    background-image: linear-gradient(black,rgb(43, 30, 43));
     color: rgb(196, 182, 240);    
     font-family: 'Courier New', Courier, monospace;
 }
-img {
-    margin-left: 50%;
-    margin-right: 50%;
+
+
+.pr_img {
+    display: inline;
+    width: 55px;
+   border-radius: 50%;
+
+}
+
+  
+#nav_items a{
+   color: aliceblue;
+    text-align: center; 
+    font-size: 20px;
+    opacity: 0.5;
+    padding-right: 10%;
+}
+
+#nav_items a:hover, #nav_items.active a {
+    opacity: 1;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 400;
-    color: rgb(122, 71, 149);    
+    color: rgb(122, 71, 149); 
     text-align: center;
 
 }
@@ -35,40 +54,63 @@ p {
     font-size: 30px;
     font-weight: 300;
     text-align: center;
+    display: grid;
 }
+
+
 
 #Skills {
   font-size: 30px;  
   font-weight: 300;
   text-align: center;
+  border-radius: 3%;
+    border-color: aliceblue;
+}
+
+#skills_list li {
+    display: inline-block;
+    padding-right: 5%;
+    align-items: center;
+    
+    
 }
 
 .connect {
     font-size: 30px;
     font-weight: 300;
     text-align: center;
-   
+    list-style-type: none;
+}
+
+.connect a:hover, .connect.active a{
+    opacity: 0.5;
 }
 
 .messageForm {
    
     font-size: 30px;
     font-weight: 300;
-    margin-top: 2cm;
+    margin-top: 1cm;
     text-align: center;
+    align-items: center;
+    display: grid;
+
 }
+
+
 
 button {
     color: rgba(83, 5, 5, 0.926);
     background-color: rgb(132, 169, 201);
     border-width: 1mm;
     padding-top: 1mm;
-    font-size: medium;
+    font-size: 20px;
+    
 }
 
 
 footer {
-    
+    font-size: 30px;
     text-align: center;
     color: rgb(252, 250, 249);
     border-style: inset;
@@ -77,15 +119,16 @@ footer {
 }
 
 ul{
-    list-style: none;
+    list-style-type: none;
 }
 
-a:visited {
+/* a:visited {
     color: rgb(122, 71, 149);
 }
 
 a:hover {
     color: rgba(210, 141, 122, 0.926)
-}
+} */
 
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type */
 

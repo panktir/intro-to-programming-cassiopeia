@@ -10,7 +10,7 @@ copyright.innerHTML = `Pankti Rana© ${thisYear}`;
 
 footer.appendChild(copyright);
 
-const skills = ["Javascript", "HTML" , "CSS"];
+const skills = ["JAVASCRIPT", "HTML" , "CSS", "GITHUB"];
 
 const skillsSection = document.querySelector('#Skills');
 

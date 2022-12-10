@@ -54,5 +54,19 @@ messageForm.addEventListener('submit', function(event) {
     messageForm.reset();
 });
 
+const projectSection = document.querySelector('#projects');
 
+fetch('https://api.github.com/users/panktir/repos')
+.then((response) => response.json())
+.then(data)
+    function data(repo) {
+        for (let i = 0; i < repo.length; i++) {
+            let projectList = document.createElement("li");
+            projectList.innerHTML = repo[i].name;
+            projectList.classList.add("projects");
+            projectSection.appendChild(projectList);
 
+        
+
+    }
+    }
